@@ -4,6 +4,7 @@
     box-sizing: border-box;
     background-color: black;
 }
+
 #container{
     position: absolute;
     left: 40%;
@@ -17,18 +18,17 @@
     left: 40%;
     top: 70%;
     width: 0;
-	height:0;
-	border-top: 25px solid transparent;
-	border-right: 50px solid #555;
-	border-bottom: 25px solid transparent;
-    
+    height:0;
+    border-top: 25px solid transparent;
+    border-right: 50px solid #555;
+    border-bottom: 25px solid transparent;
 }
 
 .left:hover{
     cursor: pointer;
     border-top: 25px solid transparent;
-	border-right: 50px solid antiquewhite;
-	border-bottom: 25px solid transparent;
+    border-right: 50px solid antiquewhite;
+    border-bottom: 25px solid transparent;
 }
 
 .right{
@@ -36,16 +36,15 @@
     left: 63%;
     top: 70%;
     width: 0;
-	height:0;
-	border-top: 25px solid transparent;
-	border-left: 50px solid #555;
-	border-bottom: 25px solid transparent;
-    
+    height:0;
+    border-top: 25px solid transparent;
+    border-left: 50px solid #555;
+    border-bottom: 25px solid transparent;  
 }
 
 .right:hover{
     cursor: pointer;
     border-top: 25px solid transparent;
-	border-left: 50px solid antiquewhite;
-	border-bottom: 25px solid transparent;
+    border-left: 50px solid antiquewhite;
+    border-bottom: 25px solid transparent;
 }
